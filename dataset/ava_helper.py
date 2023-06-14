@@ -50,7 +50,7 @@ def load_image_lists(frames_dir, frame_list, is_train):
             this video.
         video_idx_to_name (list): a list which stores video names.
     """
-    # frame_list_dir is /data3/ava/frame_lists/
+    # frame_list_dir = 'frame_lists'
     # contains 'train.csv' and 'val.csv'
     if is_train:
         list_name = "train.csv"

@@ -103,7 +103,7 @@ def parse_args():
 
     parser.add_argument('-d', '--dataset', default='ava_v2.2',
                         help='ucf24, ava_v2.2, luman')
-    parser.add_argument('--root', default='/home/jhkim/stal/',
+    parser.add_argument('--root', default='/nvme0/dev/',
                         help='data root')
     parser.add_argument('--num_workers', default=4, type=int, 
                         help='Number of workers used in dataloading')
