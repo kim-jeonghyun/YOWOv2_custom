@@ -2,6 +2,14 @@
 *.pth
 *.pkl
 *.pyc
+
+*.csv
+*.json
+*.txt
+*.log
+*.yaml
+*.yml
+
 __pycache__
 det_results
 .vscode
