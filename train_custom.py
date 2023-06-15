@@ -345,7 +345,7 @@ def print_log(lr, epoch, max_epoch, iter_i, epoch_size, loss_dict, time, accumul
     # other infor
     log += '[time: {:.2f}]'.format(time)
 
-    # print log infor
+    # print log info
     print(log, flush=True)
     logger.info(log)
 
